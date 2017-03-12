@@ -7,7 +7,7 @@ clone repo/download to {pathname}
 ```
 
 
-cd {pathname}/dta_test-master/
+cd {pathname}/deltatangoalpha-master/
 npm install
 npm start
 
