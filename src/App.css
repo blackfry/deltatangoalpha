@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.App-container {
+    text-align: center;
+    min-width: 375px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Header-title {
+    width: 370px;
+    margin: auto;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.List-nav-text {
+    padding-top: 30px;
+}
+
+.List-nav {
+    float: left;
+}
+
+.Add-nav {
+    float: right;
+}
+
+.Add-nav-text{
+    padding-top: 30px;
+}
+
+.Detail-container {
+    padding-top: 10px;
+}
+
+.Product-detail {
+    max-width: 720px;
+    margin: auto;
+}
+
+.Product-form-container {
+    padding-top: 10px;
+}
+
+.Product-form {
+    max-width: 720px;
+    margin: auto;
+}
+
+.panel-body-default {
+    max-width: 635px;
+}
+
+.panel-default {
+    max-width: 635px;
+}
+
+.Product-image-container, .detail {
+        height: 490px;
+    }
+    .list {
+        height: 250px;
+    }
+
+
+.Product-image-container-list {
+    height: 250px;
+}
+
+.Product-code-text, .hidden {
+    display: none;
+}
+
+@media (max-width:559px){
+    .List-nav-text {
+        display: None;
+    }
+
+    .List-nav-icon {
+        padding-left: 20px;
+    }
+
+    .Add-nav-text {
+        display: None;
+    }
+    .Add-nav-icon {
+        padding-right: 20px;
+    }
+
+    .App-logo {
+        display: none;
+    }
+
+    .panel-body {
+        padding: 0;
+    }
+
+    .Header-title {
+        font-size: 20px;
+    }
+
+    .App-header {
+        height: 70px;
+    }
+
+    .Product-form-container {
+        padding: 0 !important;
+    }
+}
+
+
+@media (min-width:560px){
+    .List-nav-icon {
+        display: None;
+    }
+
+    .Add-nav-icon {
+        display: none;
+    }
+
+    .Header-title {
+        font-size: 35px;
+    }
+}
+

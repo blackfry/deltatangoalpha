@@ -1,0 +1,64 @@
+exports[`test Testing rendering of Product component 1`] = `
+<div
+  className="animated slideInRight">
+  <a
+    onClick={[Function]}
+    style={Object {}}>
+    <div
+      className="panel panel-default"
+      id={undefined}>
+      <div
+        className="panel-body">
+        <div
+          className="container"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }>
+          <div
+            className="row">
+            <div
+              className="">
+              <div
+                className="Product-image-container detail">
+                <div
+                  style={
+                    Object {
+                      "background": "url(http://lorempixel.com/300/250/city/image%201)",
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "height": "100%",
+                    }
+                  } />
+              </div>
+            </div>
+          </div>
+          <div
+            className="row">
+            <div
+              className="">
+              <div
+                style={
+                  Object {
+                    "fontSize": "20px",
+                    "overflow": "hidden",
+                    "textOverflow": "ellipsis",
+                  }
+                }>
+                <h4>
+                  product 1
+                </h4>
+                <h6
+                  className="Product-code-text hidden">
+                  
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
