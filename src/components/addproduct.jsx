@@ -5,7 +5,7 @@ import {Field, reduxForm} from 'redux-form'
 import {RaisedButton, TextField} from 'material-ui'
 import {addNewProductInitiateActionCreator, loadProductsInitiateActionCreator} from '../redux/actions';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import {Panel} from 'react-bootstrap/lib/Panel';
+import Panel from 'react-bootstrap/lib/Panel';
 import {Product} from './product'
 
 // https://github.com/callemall/material-ui/issues/4670
