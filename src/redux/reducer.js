@@ -11,7 +11,7 @@ let defaultProductState = {
     productListLoaded: false,
     initiated: false,
     failed: false,
-
+    addNewProductSuccess: false,
     products: [],
     newProduct: {},
 };
